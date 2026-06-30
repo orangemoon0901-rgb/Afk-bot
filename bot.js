@@ -80,7 +80,7 @@ function createBot() {
 
   reconnecting = true;
 
-  const name = process.argv[2] || "PRASAD09";
+  const name = process.argv[2] || "SilverMoon";
 
   console.log(`Creating bot... [${name}]`);
 
@@ -103,7 +103,7 @@ function createBot() {
       setTimeout(() => {
         if (!bot) return;
 
-        bot.chat("/login PRASAD@2009");
+        bot.chat("/login PRASAD09");
 
         setTimeout(() => {
           if (!bot) return;
