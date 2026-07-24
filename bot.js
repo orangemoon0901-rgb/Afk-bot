@@ -128,7 +128,7 @@ function createBot() {
 
       // Auto server join
       if (msg.includes("Right click the")) {
-        bot.chat("/server survival");
+        bot.chat("/server oplifesteal");
       }
     } catch (err) {
       console.error("Message handler error:", err.message);
